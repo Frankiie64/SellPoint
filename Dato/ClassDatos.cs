@@ -12,6 +12,6 @@ namespace Dato
 {
     public  class ClassDatos
     {
-
+        
     }
 }
