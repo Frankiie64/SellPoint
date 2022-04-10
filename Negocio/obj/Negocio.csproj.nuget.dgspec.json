@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Eleikel\\Documents\\C#\\MVC\\Proyecto Final\\Negocio\\Negocio.csproj": {}
+    "C:\\Users\\Eleikel\\Desktop\\ITLA\\Proyecto Final\\Negocio\\Negocio.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Eleikel\\Documents\\C#\\MVC\\Proyecto Final\\Negocio\\Negocio.csproj": {
+    "C:\\Users\\Eleikel\\Desktop\\ITLA\\Proyecto Final\\Negocio\\Negocio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Eleikel\\Documents\\C#\\MVC\\Proyecto Final\\Negocio\\Negocio.csproj",
+        "projectUniqueName": "C:\\Users\\Eleikel\\Desktop\\ITLA\\Proyecto Final\\Negocio\\Negocio.csproj",
         "projectName": "Negocio",
-        "projectPath": "C:\\Users\\Eleikel\\Documents\\C#\\MVC\\Proyecto Final\\Negocio\\Negocio.csproj",
+        "projectPath": "C:\\Users\\Eleikel\\Desktop\\ITLA\\Proyecto Final\\Negocio\\Negocio.csproj",
         "packagesPath": "C:\\Users\\Eleikel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Eleikel\\Documents\\C#\\MVC\\Proyecto Final\\Negocio\\obj\\",
+        "outputPath": "C:\\Users\\Eleikel\\Desktop\\ITLA\\Proyecto Final\\Negocio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Eleikel\\AppData\\Roaming\\NuGet\\NuGet.Config",

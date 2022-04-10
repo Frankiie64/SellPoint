@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Eleikel\\Documents\\C#\\MVC\\Proyecto Final\\Datos\\Datos.csproj": {}
+    "C:\\Users\\Eleikel\\Desktop\\ITLA\\Proyecto Final\\Datos\\Datos.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Eleikel\\Documents\\C#\\MVC\\Proyecto Final\\Datos\\Datos.csproj": {
+    "C:\\Users\\Eleikel\\Desktop\\ITLA\\Proyecto Final\\Datos\\Datos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Eleikel\\Documents\\C#\\MVC\\Proyecto Final\\Datos\\Datos.csproj",
+        "projectUniqueName": "C:\\Users\\Eleikel\\Desktop\\ITLA\\Proyecto Final\\Datos\\Datos.csproj",
         "projectName": "Datos",
-        "projectPath": "C:\\Users\\Eleikel\\Documents\\C#\\MVC\\Proyecto Final\\Datos\\Datos.csproj",
+        "projectPath": "C:\\Users\\Eleikel\\Desktop\\ITLA\\Proyecto Final\\Datos\\Datos.csproj",
         "packagesPath": "C:\\Users\\Eleikel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Eleikel\\Documents\\C#\\MVC\\Proyecto Final\\Datos\\obj\\",
+        "outputPath": "C:\\Users\\Eleikel\\Desktop\\ITLA\\Proyecto Final\\Datos\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Eleikel\\AppData\\Roaming\\NuGet\\NuGet.Config",

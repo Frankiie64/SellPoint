@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Eleikel\\Documents\\C#\\MVC\\Proyecto Final\\Presentacion\\Presentacion.csproj": {}
+    "C:\\Users\\Eleikel\\Desktop\\ITLA\\Proyecto Final\\Presentacion\\Presentacion.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Eleikel\\Documents\\C#\\MVC\\Proyecto Final\\Presentacion\\Presentacion.csproj": {
+    "C:\\Users\\Eleikel\\Desktop\\ITLA\\Proyecto Final\\Presentacion\\Presentacion.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Eleikel\\Documents\\C#\\MVC\\Proyecto Final\\Presentacion\\Presentacion.csproj",
+        "projectUniqueName": "C:\\Users\\Eleikel\\Desktop\\ITLA\\Proyecto Final\\Presentacion\\Presentacion.csproj",
         "projectName": "Presentacion",
-        "projectPath": "C:\\Users\\Eleikel\\Documents\\C#\\MVC\\Proyecto Final\\Presentacion\\Presentacion.csproj",
+        "projectPath": "C:\\Users\\Eleikel\\Desktop\\ITLA\\Proyecto Final\\Presentacion\\Presentacion.csproj",
         "packagesPath": "C:\\Users\\Eleikel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Eleikel\\Documents\\C#\\MVC\\Proyecto Final\\Presentacion\\obj\\",
+        "outputPath": "C:\\Users\\Eleikel\\Desktop\\ITLA\\Proyecto Final\\Presentacion\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Eleikel\\AppData\\Roaming\\NuGet\\NuGet.Config",
