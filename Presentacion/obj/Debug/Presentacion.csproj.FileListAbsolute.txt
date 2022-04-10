@@ -1,0 +1,16 @@
+C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Presentacion\bin\Debug\Presentacion.exe.config
+C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Presentacion\bin\Debug\Presentacion.exe
+C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Presentacion\bin\Debug\Presentacion.pdb
+C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Presentacion\obj\Debug\Presentacion.csproj.AssemblyReference.cache
+C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Presentacion\obj\Debug\Presentacion.csproj.SuggestedBindingRedirects.cache
+C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Presentacion\obj\Debug\Presentacion.Properties.Resources.resources
+C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Presentacion\obj\Debug\Presentacion.csproj.GenerateResource.cache
+C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Presentacion\obj\Debug\Presentacion.csproj.CoreCompileInputs.cache
+C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Presentacion\obj\Debug\Presentacion.exe
+C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Presentacion\obj\Debug\Presentacion.pdb
+C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Presentacion\bin\Debug\Negocio.dll
+C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Presentacion\bin\Debug\Negocio.pdb
+C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Presentacion\obj\Debug\Presentacion.Form1.resources
+C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Presentacion\obj\Debug\Presentacion.csproj.CopyComplete
+C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Presentacion\obj\Debug\Presentacion.Menu_Principal.resources
+C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Presentacion\obj\Debug\Presentacion.Acerca_De.resources

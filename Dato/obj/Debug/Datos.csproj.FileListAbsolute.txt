@@ -1,0 +1,9 @@
+C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Dato\bin\Debug\Dato.dll
+C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Dato\bin\Debug\Dato.pdb
+C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Dato\obj\Debug\Datos.csproj.AssemblyReference.cache
+C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Dato\obj\Debug\Datos.csproj.CoreCompileInputs.cache
+C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Dato\obj\Debug\Dato.dll
+C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Dato\obj\Debug\Dato.pdb
+C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Dato\bin\Debug\System.Data.SqlClient.dll
+C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Dato\bin\Debug\System.Data.SqlClient.xml
+C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Dato\obj\Debug\Datos.csproj.CopyComplete
