@@ -1,9 +1,9 @@
 C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Negocio\bin\Debug\Negocio.dll
 C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Negocio\bin\Debug\Negocio.pdb
-C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Negocio\obj\Debug\Negocio.csproj.AssemblyReference.cache
-C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
-C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Negocio\obj\Debug\Negocio.dll
-C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Negocio\obj\Debug\Negocio.pdb
 C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Negocio\bin\Debug\Dato.dll
 C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Negocio\bin\Debug\Dato.pdb
+C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Negocio\obj\Debug\Negocio.csproj.AssemblyReference.cache
+C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
 C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Negocio\obj\Debug\Negocio.csproj.CopyComplete
+C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Negocio\obj\Debug\Negocio.dll
+C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Negocio\obj\Debug\Negocio.pdb
