@@ -193,6 +193,12 @@
     <Compile Include="Login\frmLogin.Designer.cs">
       <DependentUpon>frmLogin.cs</DependentUpon>
     </Compile>
+    <Compile Include="Login\frmRecuperarContra.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login\frmRecuperarContra.Designer.cs">
+      <DependentUpon>frmRecuperarContra.cs</DependentUpon>
+    </Compile>
     <Compile Include="Menu_Principal.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -215,6 +221,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Login\frmLogin.resx">
       <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login\frmRecuperarContra.resx">
+      <DependentUpon>frmRecuperarContra.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Menu_Principal.resx">
       <DependentUpon>Menu_Principal.cs</DependentUpon>

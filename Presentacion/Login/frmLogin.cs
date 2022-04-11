@@ -84,8 +84,7 @@ namespace Presentacion.Login
             {
                 usuario.Username = txtUsuario.Text;
                 usuario.Password = txtContraseña.Text;
-            }
-
+            }            
             return usuario;
         }
 

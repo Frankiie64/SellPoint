@@ -115,3 +115,4 @@ C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\bin\Debug\pt-BR
 C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\bin\Debug\ru\Microsoft.Data.SqlClient.resources.dll
 C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\bin\Debug\zh-Hans\Microsoft.Data.SqlClient.resources.dll
 C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\bin\Debug\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\obj\Debug\Presentacion.Login.frmRecuperarContra.resources
