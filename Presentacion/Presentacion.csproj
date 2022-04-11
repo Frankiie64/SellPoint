@@ -125,6 +125,7 @@
       <HintPath>..\packages\System.ComponentModel.Annotations.4.7.0\lib\net461\System.ComponentModel.Annotations.dll</HintPath>
     </Reference>
     <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Data.Common, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <HintPath>..\packages\System.Data.Common.4.3.0\lib\net451\System.Data.Common.dll</HintPath>
@@ -242,10 +243,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Dato\Datos.csproj">
-      <Project>{cfc7af98-d105-4512-aebd-db9c707e3291}</Project>
-      <Name>Datos</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Negocio\Negocio.csproj">
       <Project>{95d9a186-aec7-40ad-83ef-052bdee22b08}</Project>
       <Name>Negocio</Name>
