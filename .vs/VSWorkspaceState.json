@@ -2,6 +2,7 @@
   "ExpandedNodes": [
     "",
     "\\Dato",
+    "\\Dato\\Model",
     "\\Dato\\Repositorios",
     "\\Negocio",
     "\\Negocio\\ModelosDto",
@@ -9,6 +10,6 @@
     "\\Presentacion",
     "\\Presentacion\\Login"
   ],
-  "SelectedNode": "\\Dato\\Repositorios\\Repositorio Entidades.cs",
+  "SelectedNode": "\\Presentacion\\Login\\frmLogin.cs",
   "PreviewInSolutionExplorer": false
 }
