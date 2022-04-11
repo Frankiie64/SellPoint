@@ -4,10 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Negocio
+namespace Presentacion.Login
 {
-    public class ClaseNegocio
+    internal class frmRecuperarContraseña
     {
-
     }
 }

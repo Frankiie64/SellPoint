@@ -160,6 +160,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ClaseNegocio.cs" />
+    <Compile Include="ModelosDto\EntidadLoginDto.cs" />
+    <Compile Include="Services\Services Login.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
