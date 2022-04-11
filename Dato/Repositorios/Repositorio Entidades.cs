@@ -38,6 +38,8 @@ namespace Dato.Repositorio
                 while (reader.Read())
                 {
                     data.Id = reader.IsDBNull(0) ? 0 : reader.GetInt32(0);
+                    data.Descripcion = reader.IsDBNull(1) ? "" : reader.GetString(1);
+                    data.Direccion = reader.IsDBNull(2) ? "" : reader.GetString(2);
                     data.UsernameEntidad = reader.IsDBNull(11) ? "" : reader.GetString(11);
                     data.PasswordEntidad = reader.IsDBNull(12) ? "" : reader.GetString(12);
                 }

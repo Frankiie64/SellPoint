@@ -30,9 +30,7 @@ namespace Negocio.Services
                 return false;
             }
 
-            Entidades UserFinded = new Entidades();
-
-            UserFinded = data.findByUsuario(usario.Username);
+            Entidades UserFinded = data.findByUsuario(usario.Username);
 
             if(UserFinded == null)
             {
