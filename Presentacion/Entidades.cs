@@ -16,5 +16,7 @@ namespace Presentacion
         {
             InitializeComponent();
         }
+
+        public static string Id { get; internal set; }
     }
 }

@@ -252,6 +252,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Dato\Datos.csproj">
+      <Project>{CFC7AF98-D105-4512-AEBD-DB9C707E3291}</Project>
+      <Name>Datos</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Negocio\Negocio.csproj">
       <Project>{95d9a186-aec7-40ad-83ef-052bdee22b08}</Project>
       <Name>Negocio</Name>
