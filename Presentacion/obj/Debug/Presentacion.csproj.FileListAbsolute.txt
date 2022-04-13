@@ -202,3 +202,4 @@ C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Presentacion\obj\Debug\Presentacion
 C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Presentacion\bin\Debug\Presentacion.exe.config
 C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Presentacion\bin\Debug\Presentacion.pdb
 C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Presentacion\obj\Debug\Presentacion.csproj.CopyComplete
+C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Presentacion\obj\Debug\Presentacion.Grupos_Entidades.resources

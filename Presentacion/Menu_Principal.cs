@@ -19,8 +19,6 @@ namespace Presentacion
         //Dato.Model.Entidades _entidades = new Dato.Model.Entidades();
         EntidadLoginDto entidadLoginDto = new EntidadLoginDto();
 
-
-
         public Menu_Principal()
         {
             InitializeComponent();

@@ -163,7 +163,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ClassDatos.cs" />
+    <Compile Include="Datos_Conexion.cs" />
+    <Compile Include="Datos_GruposEntidades.cs" />
     <Compile Include="Model\Entidades.cs" />
     <Compile Include="Model\GruposEntidades.cs" />
     <Compile Include="Model\Modelos.cs" />
