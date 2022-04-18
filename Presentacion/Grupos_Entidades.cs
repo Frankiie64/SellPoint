@@ -95,7 +95,7 @@ namespace Presentacion
             }
             else
             {
-                MessageBox.Show("Seleccione una fila por favor");
+                MessageBox.Show("Debes seleccionar una fila");
             }
         }
         private void LimpiarForm()
@@ -104,7 +104,6 @@ namespace Presentacion
             txtComentario.Clear();
             txtIdStatus.Clear();
             txtNoEliminable.Clear();
-            txtFechaRegistro.Clear();
         }
 
         private void btnEliminar_Click(object sender, EventArgs e)
@@ -113,19 +112,16 @@ namespace Presentacion
             {
                 idGrupoEntidades = dataGridView1.CurrentRow.Cells["IdGrupoEnitdad"].Value.ToString();
                 grupoEntidades.Eliminar_GrupoEntidades(idGrupoEntidades);
-                MessageBox.Show("Eliminado Correctamente");
+                MessageBox.Show("Datos Eliminados Correctamente");
                 MostrarProductos();
             }
             else
             {
-                MessageBox.Show("Seleccione una fila por favor");
+                MessageBox.Show("Debes seleccionar una fila");
 
             }
         }
 
-        private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
-        {
 
-        }
     }
 }
