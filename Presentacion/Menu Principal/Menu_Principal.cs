@@ -1,5 +1,6 @@
 ﻿using Dato.Model;
 using Negocio.ModelosDto;
+using Presentacion.Login;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -29,6 +30,7 @@ namespace Presentacion
         {
             Acerca_De acerca_De = new Acerca_De();
             acerca_De.Show();
+            this.Close();
         }
 
         private void salirToolStripMenuItem_Click(object sender, EventArgs e)
@@ -56,19 +58,39 @@ namespace Presentacion
         {
             Grupos_Entidades grupos_Entidades = new Grupos_Entidades();
             grupos_Entidades.Show();
+            this.Close();
         }
 
         private void tiposEntidadesToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Tipos_Entidades tipos_Entidades = new Tipos_Entidades();
             tipos_Entidades.Show();
+            this.Close();
         }
 
         private void entidadesToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Entidades entidades = new Entidades();
             entidades.Show();
+            this.Close();
         }
 
+        private void Menu_Principal_FormClosing(object sender, FormClosingEventArgs e)
+        {
+
+            if (MessageBox.Show("Estas seguro de querer salir del menu principal ?", "ATENCION", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.No)
+            {
+                e.Cancel = true;
+            }
+            else
+            {
+                e.Cancel = false;
+            }
+        }
+
+        private void Menu_Principal_FormClosed(object sender, FormClosedEventArgs e)
+        {            
+            frmLogin.Intance.Close();
+        }
     }
 }

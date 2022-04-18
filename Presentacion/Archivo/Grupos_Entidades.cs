@@ -122,6 +122,21 @@ namespace Presentacion
             }
         }
 
+        //Evento Volver al menu principal
+        private void btnVolver_Click(object sender, EventArgs e)
+        {
+            VolverAlMenuPrincipal();
+        }
 
+        private void VolverAlMenuPrincipal()
+        {
+            this.Close();            
+        }
+
+        private void Grupos_Entidades_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Menu_Principal menu = new Menu_Principal();
+            menu.Show();
+        }
     }
 }

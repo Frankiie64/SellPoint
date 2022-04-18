@@ -163,16 +163,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Acerca_De.cs">
+    <Compile Include="Sistema\Acerca_De.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Acerca_De.Designer.cs">
+    <Compile Include="Sistema\Acerca_De.Designer.cs">
       <DependentUpon>Acerca_De.cs</DependentUpon>
     </Compile>
-    <Compile Include="Entidades.cs">
+    <Compile Include="Archivo\Entidades.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Entidades.Designer.cs">
+    <Compile Include="Archivo\Entidades.Designer.cs">
       <DependentUpon>Entidades.cs</DependentUpon>
     </Compile>
     <Compile Include="Form1.cs">
@@ -181,10 +181,10 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Grupos_Entidades.cs">
+    <Compile Include="Archivo\Grupos_Entidades.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Grupos_Entidades.Designer.cs">
+    <Compile Include="Archivo\Grupos_Entidades.Designer.cs">
       <DependentUpon>Grupos_Entidades.cs</DependentUpon>
     </Compile>
     <Compile Include="Login\frmLogin.cs">
@@ -199,27 +199,27 @@
     <Compile Include="Login\frmRecuperarContra.Designer.cs">
       <DependentUpon>frmRecuperarContra.cs</DependentUpon>
     </Compile>
-    <Compile Include="Menu_Principal.cs">
+    <Compile Include="Menu Principal\Menu_Principal.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Menu_Principal.Designer.cs">
+    <Compile Include="Menu Principal\Menu_Principal.Designer.cs">
       <DependentUpon>Menu_Principal.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Tipos_Entidades.cs">
+    <Compile Include="Archivo\Tipos_Entidades.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Tipos_Entidades.Designer.cs">
+    <Compile Include="Archivo\Tipos_Entidades.Designer.cs">
       <DependentUpon>Tipos_Entidades.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Acerca_De.resx">
+    <EmbeddedResource Include="Sistema\Acerca_De.resx">
       <DependentUpon>Acerca_De.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Grupos_Entidades.resx">
+    <EmbeddedResource Include="Archivo\Grupos_Entidades.resx">
       <DependentUpon>Grupos_Entidades.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login\frmLogin.resx">
@@ -228,7 +228,7 @@
     <EmbeddedResource Include="Login\frmRecuperarContra.resx">
       <DependentUpon>frmRecuperarContra.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Menu_Principal.resx">
+    <EmbeddedResource Include="Menu Principal\Menu_Principal.resx">
       <DependentUpon>Menu_Principal.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
