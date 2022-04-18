@@ -10,6 +10,7 @@ using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -29,7 +30,7 @@ namespace Presentacion.Login
             InitializeComponent();
             connection = new SqlConnection(connectionString);
             service = new Services_Login(connection);
-
+            
         }
 
         #region Eventos
@@ -55,7 +56,10 @@ namespace Presentacion.Login
                 return;
 
             }
-            MessageBox.Show($"Bienvenido {txtUsuario.Text}");
+            //MessageBox.Show($"Bienvenido {txtUsuario.Text}");
+            Menu_Principal menu_principal = new Menu_Principal();
+            menu_principal.Show();
+            this.Visible = false; // Cerrar Ventana de login
 
         }
 
@@ -89,5 +93,10 @@ namespace Presentacion.Login
         }
 
         #endregion
+
+        private void frmLogin_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

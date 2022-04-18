@@ -38,18 +38,20 @@
             // 
             // txtUsuario
             // 
-            this.txtUsuario.Location = new System.Drawing.Point(91, 136);
+            this.txtUsuario.Location = new System.Drawing.Point(61, 88);
+            this.txtUsuario.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtUsuario.Name = "txtUsuario";
-            this.txtUsuario.Size = new System.Drawing.Size(296, 26);
+            this.txtUsuario.Size = new System.Drawing.Size(199, 20);
             this.txtUsuario.TabIndex = 0;
             // 
             // lblUsuario
             // 
             this.lblUsuario.AutoSize = true;
             this.lblUsuario.Font = new System.Drawing.Font("Segoe UI Emoji", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblUsuario.Location = new System.Drawing.Point(87, 109);
+            this.lblUsuario.Location = new System.Drawing.Point(58, 71);
+            this.lblUsuario.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblUsuario.Name = "lblUsuario";
-            this.lblUsuario.Size = new System.Drawing.Size(70, 24);
+            this.lblUsuario.Size = new System.Drawing.Size(47, 16);
             this.lblUsuario.TabIndex = 1;
             this.lblUsuario.Text = "Usuario";
             // 
@@ -57,24 +59,27 @@
             // 
             this.lblContraseña.AutoSize = true;
             this.lblContraseña.Font = new System.Drawing.Font("Segoe UI Emoji", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblContraseña.Location = new System.Drawing.Point(87, 170);
+            this.lblContraseña.Location = new System.Drawing.Point(58, 110);
+            this.lblContraseña.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblContraseña.Name = "lblContraseña";
-            this.lblContraseña.Size = new System.Drawing.Size(99, 24);
+            this.lblContraseña.Size = new System.Drawing.Size(67, 16);
             this.lblContraseña.TabIndex = 3;
             this.lblContraseña.Text = "Contraseña";
             // 
             // txtContraseña
             // 
-            this.txtContraseña.Location = new System.Drawing.Point(91, 197);
+            this.txtContraseña.Location = new System.Drawing.Point(61, 128);
+            this.txtContraseña.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtContraseña.Name = "txtContraseña";
-            this.txtContraseña.Size = new System.Drawing.Size(296, 26);
+            this.txtContraseña.Size = new System.Drawing.Size(199, 20);
             this.txtContraseña.TabIndex = 2;
             // 
             // btnEnviar
             // 
-            this.btnEnviar.Location = new System.Drawing.Point(173, 295);
+            this.btnEnviar.Location = new System.Drawing.Point(115, 192);
+            this.btnEnviar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnEnviar.Name = "btnEnviar";
-            this.btnEnviar.Size = new System.Drawing.Size(129, 34);
+            this.btnEnviar.Size = new System.Drawing.Size(86, 22);
             this.btnEnviar.TabIndex = 4;
             this.btnEnviar.Text = "Iniciar Sesion";
             this.btnEnviar.UseVisualStyleBackColor = true;
@@ -84,17 +89,18 @@
             // 
             this.lblRecuperContra.AutoSize = true;
             this.lblRecuperContra.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.lblRecuperContra.Location = new System.Drawing.Point(87, 241);
+            this.lblRecuperContra.Location = new System.Drawing.Point(58, 157);
+            this.lblRecuperContra.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblRecuperContra.Name = "lblRecuperContra";
-            this.lblRecuperContra.Size = new System.Drawing.Size(215, 20);
+            this.lblRecuperContra.Size = new System.Drawing.Size(146, 13);
             this.lblRecuperContra.TabIndex = 5;
             this.lblRecuperContra.Text = "Has olvidado tu contraseña ?";
             // 
             // frmLogin
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(553, 674);
+            this.ClientSize = new System.Drawing.Size(369, 438);
             this.Controls.Add(this.lblRecuperContra);
             this.Controls.Add(this.btnEnviar);
             this.Controls.Add(this.lblContraseña);
@@ -102,9 +108,11 @@
             this.Controls.Add(this.lblUsuario);
             this.Controls.Add(this.txtUsuario);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.MaximizeBox = false;
             this.Name = "frmLogin";
             this.Text = "Inicio de sesion";
+            this.Load += new System.EventHandler(this.frmLogin_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -112,7 +120,7 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox txtUsuario;
+        public System.Windows.Forms.TextBox txtUsuario;
         private System.Windows.Forms.Label lblUsuario;
         private System.Windows.Forms.Label lblContraseña;
         private System.Windows.Forms.TextBox txtContraseña;

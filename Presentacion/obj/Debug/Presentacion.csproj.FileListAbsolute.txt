@@ -1,43 +1,118 @@
-C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Presentacion\bin\Debug\Presentacion.exe.config
-C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Presentacion\bin\Debug\Presentacion.exe
-C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Presentacion\bin\Debug\Presentacion.pdb
+C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Presentacion\bin\Debug\Dato.dll
+C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Presentacion\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Presentacion\bin\Debug\Microsoft.Bcl.HashCode.dll
+C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Presentacion\bin\Debug\Microsoft.Data.SqlClient.dll
+C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Presentacion\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Presentacion\bin\Debug\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Presentacion\bin\Debug\Microsoft.EntityFrameworkCore.dll
+C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Presentacion\bin\Debug\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Presentacion\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Presentacion\bin\Debug\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Presentacion\bin\Debug\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Presentacion\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Presentacion\bin\Debug\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Presentacion\bin\Debug\Microsoft.Extensions.Configuration.dll
+C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Presentacion\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Presentacion\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Presentacion\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Presentacion\bin\Debug\Microsoft.Extensions.Logging.dll
+C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Presentacion\bin\Debug\Microsoft.Extensions.Options.dll
+C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Presentacion\bin\Debug\Microsoft.Extensions.Primitives.dll
+C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Presentacion\bin\Debug\Microsoft.Identity.Client.dll
+C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Presentacion\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Presentacion\bin\Debug\Microsoft.IdentityModel.Logging.dll
+C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Presentacion\bin\Debug\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Presentacion\bin\Debug\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Presentacion\bin\Debug\Microsoft.IdentityModel.Tokens.dll
 C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Presentacion\bin\Debug\Negocio.dll
+C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Presentacion\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Presentacion\bin\Debug\System.Buffers.dll
+C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Presentacion\bin\Debug\System.Collections.Immutable.dll
+C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Presentacion\bin\Debug\System.ComponentModel.Annotations.dll
+C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Presentacion\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Presentacion\bin\Debug\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Presentacion\bin\Debug\System.Memory.dll
+C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Presentacion\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Presentacion\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Presentacion\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Presentacion\bin\Debug\Dato.pdb
+C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Presentacion\bin\Debug\Dato.dll.config
 C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Presentacion\bin\Debug\Negocio.pdb
+C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Presentacion\bin\Debug\Negocio.dll.config
+C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Presentacion\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Presentacion\bin\Debug\Microsoft.Bcl.HashCode.xml
+C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Presentacion\bin\Debug\Microsoft.Data.SqlClient.pdb
+C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Presentacion\bin\Debug\Microsoft.Data.SqlClient.xml
+C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Presentacion\bin\Debug\Microsoft.EntityFrameworkCore.xml
+C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Presentacion\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.xml
+C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Presentacion\bin\Debug\Microsoft.EntityFrameworkCore.Design.xml
+C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Presentacion\bin\Debug\Microsoft.EntityFrameworkCore.Relational.xml
+C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Presentacion\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.xml
+C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Presentacion\bin\Debug\Microsoft.Extensions.Caching.Abstractions.xml
+C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Presentacion\bin\Debug\Microsoft.Extensions.Caching.Memory.xml
+C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Presentacion\bin\Debug\Microsoft.Extensions.Configuration.xml
+C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Presentacion\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Presentacion\bin\Debug\Microsoft.Extensions.Configuration.Binder.xml
+C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Presentacion\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Presentacion\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Presentacion\bin\Debug\Microsoft.Extensions.Logging.xml
+C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Presentacion\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Presentacion\bin\Debug\Microsoft.Extensions.Options.xml
+C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Presentacion\bin\Debug\Microsoft.Extensions.Primitives.xml
+C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Presentacion\bin\Debug\Microsoft.Identity.Client.xml
+C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Presentacion\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.xml
+C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Presentacion\bin\Debug\Microsoft.IdentityModel.Logging.xml
+C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Presentacion\bin\Debug\Microsoft.IdentityModel.Protocols.xml
+C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Presentacion\bin\Debug\Microsoft.IdentityModel.Protocols.OpenIdConnect.xml
+C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Presentacion\bin\Debug\Microsoft.IdentityModel.Tokens.xml
+C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Presentacion\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Presentacion\bin\Debug\System.Buffers.xml
+C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Presentacion\bin\Debug\System.Collections.Immutable.xml
+C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Presentacion\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Presentacion\bin\Debug\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Presentacion\bin\Debug\System.Memory.xml
+C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Presentacion\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Presentacion\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Presentacion\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Presentacion\bin\Debug\de\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Presentacion\bin\Debug\es\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Presentacion\bin\Debug\fr\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Presentacion\bin\Debug\it\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Presentacion\bin\Debug\ja\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Presentacion\bin\Debug\ko\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Presentacion\bin\Debug\pt-BR\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Presentacion\bin\Debug\ru\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Presentacion\bin\Debug\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Presentacion\bin\Debug\zh-Hant\Microsoft.Data.SqlClient.resources.dll
 C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Presentacion\obj\Debug\Presentacion.csproj.AssemblyReference.cache
 C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Presentacion\obj\Debug\Presentacion.csproj.SuggestedBindingRedirects.cache
 C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Presentacion\obj\Debug\Presentacion.Acerca_De.resources
 C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Presentacion\obj\Debug\Presentacion.Form1.resources
+C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Presentacion\obj\Debug\Presentacion.Grupos_Entidades.resources
+C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Presentacion\obj\Debug\Presentacion.Login.frmLogin.resources
+C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Presentacion\obj\Debug\Presentacion.Login.frmRecuperarContra.resources
 C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Presentacion\obj\Debug\Presentacion.Menu_Principal.resources
 C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Presentacion\obj\Debug\Presentacion.Properties.Resources.resources
 C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Presentacion\obj\Debug\Presentacion.csproj.GenerateResource.cache
 C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Presentacion\obj\Debug\Presentacion.csproj.CoreCompileInputs.cache
-C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Presentacion\obj\Debug\Presentacion.csproj.CopyComplete
 C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Presentacion\obj\Debug\Presentacion.exe
 C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Presentacion\obj\Debug\Presentacion.pdb
+C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Presentacion\bin\Debug\Presentacion.exe.config
+C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Presentacion\bin\Debug\Presentacion.exe
+C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Presentacion\bin\Debug\Presentacion.pdb
+C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Presentacion\obj\Debug\Presentacion.csproj.CopyComplete
 C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\bin\Debug\Presentacion.exe.config
 C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\bin\Debug\Presentacion.exe
 C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\bin\Debug\Presentacion.pdb
-C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\bin\Debug\Negocio.dll
-C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\bin\Debug\Negocio.pdb
-C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\bin\Debug\Negocio.dll.config
-C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\obj\Debug\Presentacion.csproj.AssemblyReference.cache
-C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\obj\Debug\Presentacion.csproj.SuggestedBindingRedirects.cache
-C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\obj\Debug\Presentacion.Acerca_De.resources
-C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\obj\Debug\Presentacion.Form1.resources
-C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\obj\Debug\Presentacion.Login.frmLogin.resources
-C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\obj\Debug\Presentacion.Menu_Principal.resources
-C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\obj\Debug\Presentacion.Properties.Resources.resources
-C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\obj\Debug\Presentacion.csproj.GenerateResource.cache
-C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\obj\Debug\Presentacion.csproj.CoreCompileInputs.cache
-C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\obj\Debug\Presentacion.csproj.CopyComplete
-C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\obj\Debug\Presentacion.exe
-C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\obj\Debug\Presentacion.pdb
+C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\bin\Debug\Dato.dll
 C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\bin\Debug\Microsoft.Bcl.HashCode.dll
+C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\bin\Debug\Microsoft.Data.SqlClient.dll
 C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.dll
 C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\bin\Debug\Microsoft.EntityFrameworkCore.Design.dll
 C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\bin\Debug\Microsoft.EntityFrameworkCore.dll
 C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\bin\Debug\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.dll
 C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\bin\Debug\Microsoft.Extensions.Caching.Abstractions.dll
 C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\bin\Debug\Microsoft.Extensions.Caching.Memory.dll
 C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
@@ -49,20 +124,36 @@ C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\bin\Debug\Micro
 C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\bin\Debug\Microsoft.Extensions.Logging.dll
 C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\bin\Debug\Microsoft.Extensions.Options.dll
 C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\bin\Debug\Microsoft.Extensions.Primitives.dll
+C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\bin\Debug\Microsoft.Identity.Client.dll
+C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\bin\Debug\Microsoft.IdentityModel.Logging.dll
+C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\bin\Debug\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\bin\Debug\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\bin\Debug\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\bin\Debug\Negocio.dll
+C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\bin\Debug\Newtonsoft.Json.dll
 C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\bin\Debug\System.Buffers.dll
 C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\bin\Debug\System.Collections.Immutable.dll
 C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\bin\Debug\System.ComponentModel.Annotations.dll
 C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\bin\Debug\System.IdentityModel.Tokens.Jwt.dll
 C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\bin\Debug\System.Memory.dll
 C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\bin\Debug\System.Numerics.Vectors.dll
 C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
 C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\bin\Debug\Dato.pdb
+C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\bin\Debug\Dato.dll.config
+C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\bin\Debug\Negocio.pdb
+C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\bin\Debug\Negocio.dll.config
 C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
 C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\bin\Debug\Microsoft.Bcl.HashCode.xml
+C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\bin\Debug\Microsoft.Data.SqlClient.pdb
+C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\bin\Debug\Microsoft.Data.SqlClient.xml
 C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\bin\Debug\Microsoft.EntityFrameworkCore.xml
 C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.xml
 C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\bin\Debug\Microsoft.EntityFrameworkCore.Design.xml
 C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\bin\Debug\Microsoft.EntityFrameworkCore.Relational.xml
+C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.xml
 C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\bin\Debug\Microsoft.Extensions.Caching.Abstractions.xml
 C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\bin\Debug\Microsoft.Extensions.Caching.Memory.xml
 C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\bin\Debug\Microsoft.Extensions.Configuration.xml
@@ -74,29 +165,6 @@ C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\bin\Debug\Micro
 C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
 C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\bin\Debug\Microsoft.Extensions.Options.xml
 C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\bin\Debug\Microsoft.Extensions.Primitives.xml
-C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\bin\Debug\System.Buffers.xml
-C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\bin\Debug\System.Collections.Immutable.xml
-C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\bin\Debug\System.Diagnostics.DiagnosticSource.xml
-C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\bin\Debug\System.Memory.xml
-C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\bin\Debug\System.Numerics.Vectors.xml
-C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
-C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\bin\Debug\System.Threading.Tasks.Extensions.xml
-C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\bin\Debug\Dato.dll
-C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\bin\Debug\Dato.pdb
-C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\bin\Debug\Dato.dll.config
-C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\bin\Debug\Microsoft.Data.SqlClient.dll
-C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.dll
-C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\bin\Debug\Microsoft.Identity.Client.dll
-C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.dll
-C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\bin\Debug\Microsoft.IdentityModel.Logging.dll
-C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\bin\Debug\Microsoft.IdentityModel.Protocols.dll
-C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\bin\Debug\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\bin\Debug\Microsoft.IdentityModel.Tokens.dll
-C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\bin\Debug\Newtonsoft.Json.dll
-C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\bin\Debug\System.IdentityModel.Tokens.Jwt.dll
-C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\bin\Debug\Microsoft.Data.SqlClient.pdb
-C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\bin\Debug\Microsoft.Data.SqlClient.xml
-C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.xml
 C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\bin\Debug\Microsoft.Identity.Client.xml
 C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.xml
 C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\bin\Debug\Microsoft.IdentityModel.Logging.xml
@@ -104,7 +172,14 @@ C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\bin\Debug\Micro
 C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\bin\Debug\Microsoft.IdentityModel.Protocols.OpenIdConnect.xml
 C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\bin\Debug\Microsoft.IdentityModel.Tokens.xml
 C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\bin\Debug\System.Buffers.xml
+C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\bin\Debug\System.Collections.Immutable.xml
+C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\bin\Debug\System.Diagnostics.DiagnosticSource.xml
 C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\bin\Debug\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\bin\Debug\System.Memory.xml
+C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\bin\Debug\System.Threading.Tasks.Extensions.xml
 C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\bin\Debug\de\Microsoft.Data.SqlClient.resources.dll
 C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\bin\Debug\es\Microsoft.Data.SqlClient.resources.dll
 C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\bin\Debug\fr\Microsoft.Data.SqlClient.resources.dll
@@ -115,4 +190,17 @@ C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\bin\Debug\pt-BR
 C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\bin\Debug\ru\Microsoft.Data.SqlClient.resources.dll
 C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\bin\Debug\zh-Hans\Microsoft.Data.SqlClient.resources.dll
 C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\bin\Debug\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\obj\Debug\Presentacion.csproj.AssemblyReference.cache
+C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\obj\Debug\Presentacion.csproj.SuggestedBindingRedirects.cache
+C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\obj\Debug\Presentacion.Acerca_De.resources
+C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\obj\Debug\Presentacion.Form1.resources
+C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\obj\Debug\Presentacion.Grupos_Entidades.resources
+C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\obj\Debug\Presentacion.Login.frmLogin.resources
 C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\obj\Debug\Presentacion.Login.frmRecuperarContra.resources
+C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\obj\Debug\Presentacion.Menu_Principal.resources
+C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\obj\Debug\Presentacion.Properties.Resources.resources
+C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\obj\Debug\Presentacion.csproj.GenerateResource.cache
+C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\obj\Debug\Presentacion.csproj.CoreCompileInputs.cache
+C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\obj\Debug\Presentacion.csproj.CopyComplete
+C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\obj\Debug\Presentacion.exe
+C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\obj\Debug\Presentacion.pdb

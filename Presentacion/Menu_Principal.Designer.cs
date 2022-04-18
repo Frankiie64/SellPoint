@@ -40,10 +40,12 @@
             this.salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.label1 = new System.Windows.Forms.Label();
             this.labelNombreUsuario = new System.Windows.Forms.Label();
-            this.labelHora = new System.Windows.Forms.Label();
-            this.labelFecha = new System.Windows.Forms.Label();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.statusStrip1 = new System.Windows.Forms.StatusStrip();
+            this.toolStripHora = new System.Windows.Forms.ToolStripStatusLabel();
+            this.toolStripFecha = new System.Windows.Forms.ToolStripStatusLabel();
             this.menuStrip1.SuspendLayout();
+            this.statusStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -70,21 +72,21 @@
             // gruposEntidadesToolStripMenuItem
             // 
             this.gruposEntidadesToolStripMenuItem.Name = "gruposEntidadesToolStripMenuItem";
-            this.gruposEntidadesToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.gruposEntidadesToolStripMenuItem.Size = new System.Drawing.Size(166, 22);
             this.gruposEntidadesToolStripMenuItem.Text = "Grupos Entidades";
             this.gruposEntidadesToolStripMenuItem.Click += new System.EventHandler(this.gruposEntidadesToolStripMenuItem_Click);
             // 
             // tiposEntidadesToolStripMenuItem
             // 
             this.tiposEntidadesToolStripMenuItem.Name = "tiposEntidadesToolStripMenuItem";
-            this.tiposEntidadesToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.tiposEntidadesToolStripMenuItem.Size = new System.Drawing.Size(166, 22);
             this.tiposEntidadesToolStripMenuItem.Text = "Tipos Entidades";
             this.tiposEntidadesToolStripMenuItem.Click += new System.EventHandler(this.tiposEntidadesToolStripMenuItem_Click);
             // 
             // entidadesToolStripMenuItem
             // 
             this.entidadesToolStripMenuItem.Name = "entidadesToolStripMenuItem";
-            this.entidadesToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.entidadesToolStripMenuItem.Size = new System.Drawing.Size(166, 22);
             this.entidadesToolStripMenuItem.Text = "Entidades";
             this.entidadesToolStripMenuItem.Click += new System.EventHandler(this.entidadesToolStripMenuItem_Click);
             // 
@@ -138,39 +140,41 @@
             this.labelNombreUsuario.TabIndex = 2;
             this.labelNombreUsuario.Text = "Nombre de Usuario....";
             // 
-            // labelHora
-            // 
-            this.labelHora.AutoSize = true;
-            this.labelHora.Font = new System.Drawing.Font("Microsoft YaHei UI", 60F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelHora.Location = new System.Drawing.Point(242, 213);
-            this.labelHora.Name = "labelHora";
-            this.labelHora.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.labelHora.Size = new System.Drawing.Size(292, 106);
-            this.labelHora.TabIndex = 3;
-            this.labelHora.Text = "HORA";
-            // 
-            // labelFecha
-            // 
-            this.labelFecha.AutoSize = true;
-            this.labelFecha.Font = new System.Drawing.Font("Microsoft YaHei", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelFecha.Location = new System.Drawing.Point(262, 319);
-            this.labelFecha.Name = "labelFecha";
-            this.labelFecha.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.labelFecha.Size = new System.Drawing.Size(116, 39);
-            this.labelFecha.TabIndex = 4;
-            this.labelFecha.Text = "FECHA";
-            // 
             // timer1
             // 
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
+            // statusStrip1
+            // 
+            this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripFecha,
+            this.toolStripHora});
+            this.statusStrip1.Location = new System.Drawing.Point(0, 420);
+            this.statusStrip1.Name = "statusStrip1";
+            this.statusStrip1.Size = new System.Drawing.Size(1073, 30);
+            this.statusStrip1.TabIndex = 5;
+            this.statusStrip1.Text = "statusStrip1";
+            // 
+            // toolStripHora
+            // 
+            this.toolStripHora.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.toolStripHora.Name = "toolStripHora";
+            this.toolStripHora.Size = new System.Drawing.Size(62, 25);
+            this.toolStripHora.Text = "Fecha";
+            // 
+            // toolStripFecha
+            // 
+            this.toolStripFecha.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.toolStripFecha.Name = "toolStripFecha";
+            this.toolStripFecha.Size = new System.Drawing.Size(54, 25);
+            this.toolStripFecha.Text = "Hora";
             // 
             // Menu_Principal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1073, 450);
-            this.Controls.Add(this.labelFecha);
-            this.Controls.Add(this.labelHora);
+            this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.labelNombreUsuario);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.menuStrip1);
@@ -180,6 +184,8 @@
             this.Load += new System.EventHandler(this.Menu_Principal_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
+            this.statusStrip1.ResumeLayout(false);
+            this.statusStrip1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -198,8 +204,9 @@
         private System.Windows.Forms.ToolStripMenuItem salirToolStripMenuItem;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label labelNombreUsuario;
-        private System.Windows.Forms.Label labelHora;
-        private System.Windows.Forms.Label labelFecha;
         private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.StatusStrip statusStrip1;
+        private System.Windows.Forms.ToolStripStatusLabel toolStripHora;
+        private System.Windows.Forms.ToolStripStatusLabel toolStripFecha;
     }
 }

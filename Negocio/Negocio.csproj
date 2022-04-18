@@ -160,6 +160,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ModelosDto\EntidadLoginDto.cs" />
+    <Compile Include="Negocio_GruposEntidades.cs" />
     <Compile Include="Services\Services Login.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
