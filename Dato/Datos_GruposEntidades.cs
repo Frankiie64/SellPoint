@@ -41,6 +41,41 @@ namespace Dato
             comando.Parameters.AddWithValue("@IdNoEliminable", IdNoEliminable);
             comando.Parameters.AddWithValue("@FechaRegistro", FechaRegistro);
             comando.ExecuteNonQuery();
+            comando.Parameters.Clear();
         }
+
+
+
+        //Editar
+        public void Editar(string Descripcion, string Comentario, int IdStatus, bool IdNoEliminable, DateTime FechaRegistro, int id) //Metodo Insertar
+        {
+            //"insert into GruposEntidades values('" + Descripcion + "', '" + Comentario + "', " + IdStatus + ", '" + IdNoEliminable + "', '" + FechaRegistro + "')"
+            comando.Connection = connection.AbrirConexionBD();
+            comando.CommandText = "EditarGruposEntidades";
+            comando.CommandType = CommandType.StoredProcedure;
+            comando.Parameters.AddWithValue("@Descripcion", Descripcion);
+            comando.Parameters.AddWithValue("@Comentario", Comentario);
+            comando.Parameters.AddWithValue("@IdStatus", IdStatus);
+            comando.Parameters.AddWithValue("@IdNoEliminable", IdNoEliminable);
+            comando.Parameters.AddWithValue("@FechaRegistro", FechaRegistro);
+            comando.Parameters.AddWithValue("@id", id);
+            comando.ExecuteNonQuery();
+            comando.Parameters.Clear();
+
+        }
+
+        //Eliminar
+        public void Eliminar(int id)
+        {
+            comando.Connection = connection.AbrirConexionBD();
+            comando.CommandText = "EliminarGrupoEntidades";
+            comando.CommandType = CommandType.StoredProcedure;
+
+            comando.Parameters.AddWithValue("@id", id);
+            comando.ExecuteNonQuery();
+            comando.Parameters.Clear();
+        }
+
+
     }
 }

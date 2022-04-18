@@ -35,11 +35,13 @@
             this.label2 = new System.Windows.Forms.Label();
             this.txtIdStatus = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.txtIdNoEliminable = new System.Windows.Forms.TextBox();
+            this.txtNoEliminable = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.txtFechaRegistro = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.Guardar = new System.Windows.Forms.Button();
+            this.btnEditar = new System.Windows.Forms.Button();
+            this.btnEliminar = new System.Windows.Forms.Button();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -48,7 +50,7 @@
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(32, 53);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(744, 472);
+            this.dataGridView1.Size = new System.Drawing.Size(744, 450);
             this.dataGridView1.TabIndex = 0;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
@@ -109,14 +111,14 @@
             this.label3.TabIndex = 5;
             this.label3.Text = "IdStatus : ";
             // 
-            // txtIdNoEliminable
+            // txtNoEliminable
             // 
-            this.txtIdNoEliminable.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtIdNoEliminable.Location = new System.Drawing.Point(942, 328);
-            this.txtIdNoEliminable.Multiline = true;
-            this.txtIdNoEliminable.Name = "txtIdNoEliminable";
-            this.txtIdNoEliminable.Size = new System.Drawing.Size(198, 26);
-            this.txtIdNoEliminable.TabIndex = 8;
+            this.txtNoEliminable.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNoEliminable.Location = new System.Drawing.Point(942, 328);
+            this.txtNoEliminable.Multiline = true;
+            this.txtNoEliminable.Name = "txtNoEliminable";
+            this.txtNoEliminable.Size = new System.Drawing.Size(217, 26);
+            this.txtNoEliminable.TabIndex = 8;
             // 
             // label4
             // 
@@ -124,18 +126,9 @@
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(799, 334);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(144, 20);
+            this.label4.Size = new System.Drawing.Size(142, 20);
             this.label4.TabIndex = 7;
-            this.label4.Text = "IdNoEliminable : ";
-            // 
-            // txtFechaRegistro
-            // 
-            this.txtFechaRegistro.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtFechaRegistro.Location = new System.Drawing.Point(942, 379);
-            this.txtFechaRegistro.Multiline = true;
-            this.txtFechaRegistro.Name = "txtFechaRegistro";
-            this.txtFechaRegistro.Size = new System.Drawing.Size(198, 26);
-            this.txtFechaRegistro.TabIndex = 10;
+            this.label4.Text = "Es Eliminable? : ";
             // 
             // label5
             // 
@@ -157,15 +150,46 @@
             this.Guardar.UseVisualStyleBackColor = true;
             this.Guardar.Click += new System.EventHandler(this.BtnGuardar_Click);
             // 
+            // btnEditar
+            // 
+            this.btnEditar.Location = new System.Drawing.Point(32, 532);
+            this.btnEditar.Name = "btnEditar";
+            this.btnEditar.Size = new System.Drawing.Size(166, 37);
+            this.btnEditar.TabIndex = 12;
+            this.btnEditar.Text = "Editar";
+            this.btnEditar.UseVisualStyleBackColor = true;
+            this.btnEditar.Click += new System.EventHandler(this.btnEditar_Click);
+            // 
+            // btnEliminar
+            // 
+            this.btnEliminar.Location = new System.Drawing.Point(241, 535);
+            this.btnEliminar.Name = "btnEliminar";
+            this.btnEliminar.Size = new System.Drawing.Size(184, 34);
+            this.btnEliminar.TabIndex = 13;
+            this.btnEliminar.Text = "Eliminar";
+            this.btnEliminar.UseVisualStyleBackColor = true;
+            this.btnEliminar.Click += new System.EventHandler(this.btnEliminar_Click);
+            // 
+            // dateTimePicker1
+            // 
+            this.dateTimePicker1.CalendarFont = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dateTimePicker1.Location = new System.Drawing.Point(942, 385);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(217, 20);
+            this.dateTimePicker1.TabIndex = 14;
+            this.dateTimePicker1.ValueChanged += new System.EventHandler(this.dateTimePicker1_ValueChanged);
+            // 
             // Grupos_Entidades
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1185, 593);
+            this.Controls.Add(this.dateTimePicker1);
+            this.Controls.Add(this.btnEliminar);
+            this.Controls.Add(this.btnEditar);
             this.Controls.Add(this.Guardar);
-            this.Controls.Add(this.txtFechaRegistro);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.txtIdNoEliminable);
+            this.Controls.Add(this.txtNoEliminable);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.txtIdStatus);
             this.Controls.Add(this.label3);
@@ -192,10 +216,12 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox txtIdStatus;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox txtIdNoEliminable;
+        private System.Windows.Forms.TextBox txtNoEliminable;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox txtFechaRegistro;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Button Guardar;
+        private System.Windows.Forms.Button btnEditar;
+        private System.Windows.Forms.Button btnEliminar;
+        private System.Windows.Forms.DateTimePicker dateTimePicker1;
     }
 }

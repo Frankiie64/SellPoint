@@ -25,5 +25,16 @@ namespace Negocio
         {
             datos_GrupoEntidades.Insertar(Descripcion, Comentario, Convert.ToInt32(IdStatus), Convert.ToBoolean(IdNoEliminable), Convert.ToDateTime(FechaRegistro));
         }
+
+        public void Editar_GrupoEntidades(string Descripcion, string Comentario, int IdStatus, bool IdNoEliminable, DateTime FechaRegistro, string id)
+        {
+            datos_GrupoEntidades.Editar(Descripcion, Comentario, Convert.ToInt32(IdStatus), Convert.ToBoolean(IdNoEliminable), Convert.ToDateTime(FechaRegistro), Convert.ToInt32(id));
+        }
+
+        public void Eliminar_GrupoEntidades(string id)
+        {
+            datos_GrupoEntidades.Eliminar(Convert.ToInt32(id));
+        }
+
     }
 }

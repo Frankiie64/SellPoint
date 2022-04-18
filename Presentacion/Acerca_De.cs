@@ -27,5 +27,20 @@ namespace Presentacion
             this.Close();
            
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Acerca_De_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

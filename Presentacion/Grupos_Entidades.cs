@@ -16,14 +16,16 @@ namespace Presentacion
     public partial class Grupos_Entidades : Form
     {
         public string connectionString = ConfigurationManager.ConnectionStrings["default"].ConnectionString;
-        //SqlConnection connection;
+        SqlConnection connection;
 
         Negocio_GruposEntidades grupoEntidades = new Negocio_GruposEntidades();
+        private string idGrupoEntidades = null;
+        private bool Editar = false;
 
 
         public Grupos_Entidades()
         {
-           // connection = new SqlConnection(connectionString);
+            connection = new SqlConnection(connectionString);
             InitializeComponent();
         }
 
@@ -42,18 +44,88 @@ namespace Presentacion
             dataGridView1.DataSource = ObjetosgrupoEntidades.MostrarGrupoEntidades();
         }
 
-        private void BtnGuardar_Click(object sender, EventArgs e)
+        private  void BtnGuardar_Click(object sender, EventArgs e)
         {
-            try
+            //Insertar
+            if (Editar == false)
             {
-                grupoEntidades.Insertar_GrupoEntidades(txtDescripcion.Text, txtComentario.Text, Convert.ToInt32(txtIdStatus.Text), Convert.ToBoolean(txtIdNoEliminable.Text), Convert.ToDateTime(txtFechaRegistro.Text));
-                MessageBox.Show("Se han insertado los datos correctamente");
+                try
+                {
+                    grupoEntidades.Insertar_GrupoEntidades(txtDescripcion.Text, txtComentario.Text, Convert.ToInt32(txtIdStatus.Text), Convert.ToBoolean(txtNoEliminable.Text), Convert.ToDateTime(dateTimePicker1.Text));
+                    MessageBox.Show("Se han insertado los datos correctamente");
+                    MostrarProductos();
+                    LimpiarForm();
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("No se pudo insertar los datos por : " + ex);
+                }
+            }
+
+            //Editar
+            if (Editar == true)
+            {
+                try
+                {
+                    grupoEntidades.Editar_GrupoEntidades(txtDescripcion.Text, txtComentario.Text, Convert.ToInt32(txtIdStatus.Text), Convert.ToBoolean(txtNoEliminable.Text), Convert.ToDateTime(dateTimePicker1.Text), idGrupoEntidades);
+                    MessageBox.Show("Se han editado los datos correctamente");
+                    MostrarProductos();
+                    LimpiarForm();
+                    Editar = false;
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("No se pudo editar los datos por : " + ex);
+                }
+            }
+        }
+
+        private void btnEditar_Click(object sender, EventArgs e)
+        {
+            if (dataGridView1.SelectedRows.Count > 0)
+            {
+                Editar = true;
+                txtDescripcion.Text = dataGridView1.CurrentRow.Cells["Descripcion"].Value.ToString();
+                txtComentario.Text = dataGridView1.CurrentRow.Cells["Comentario"].Value.ToString();
+                txtIdStatus.Text = dataGridView1.CurrentRow.Cells["IdStatus"].Value.ToString();
+                txtNoEliminable.Text = dataGridView1.CurrentRow.Cells["IdNoEliminable"].Value.ToString();
+                dateTimePicker1.Text = dataGridView1.CurrentRow.Cells["FechaRegistro"].Value.ToString();
+                idGrupoEntidades = dataGridView1.CurrentRow.Cells["IdGrupoEnitdad"].Value.ToString();
+
+            }
+            else
+            {
+                MessageBox.Show("Seleccione una fila por favor");
+            }
+        }
+        private void LimpiarForm()
+        {
+            txtDescripcion.Clear();
+            txtComentario.Clear();
+            txtIdStatus.Clear();
+            txtNoEliminable.Clear();
+            txtFechaRegistro.Clear();
+        }
+
+        private void btnEliminar_Click(object sender, EventArgs e)
+        {
+            if (dataGridView1.SelectedRows.Count > 0)
+            {
+                idGrupoEntidades = dataGridView1.CurrentRow.Cells["IdGrupoEnitdad"].Value.ToString();
+                grupoEntidades.Eliminar_GrupoEntidades(idGrupoEntidades);
+                MessageBox.Show("Eliminado Correctamente");
                 MostrarProductos();
             }
-            catch (Exception ex)
+            else
             {
-                MessageBox.Show("No se pudo insertar los datos por : " + ex);
+                MessageBox.Show("Seleccione una fila por favor");
+
             }
+        }
+
+        private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

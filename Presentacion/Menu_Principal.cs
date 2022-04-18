@@ -39,15 +39,16 @@ namespace Presentacion
         private void Menu_Principal_Load(object sender, EventArgs e)
         {
             timer1.Enabled = true;
-            label1.Text = "Hola";
+            toolStripHora.Text = DateTime.Now.ToString("hh:mm:ss");
+            toolStripFecha.Text = DateTime.Now.ToLongDateString();
+
             //labelNombreUsuario.Text = Dato.Model.Entidades.Id;
 
         }
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-            labelHora.Text = DateTime.Now.ToString("hh:mm:ss");
-            labelFecha.Text = DateTime.Now.ToLongDateString();
+            //labelHora.Text = DateTime.Now.ToString("hh:mm:ss");
 
         }
 
@@ -69,14 +70,5 @@ namespace Presentacion
             entidades.Show();
         }
 
-        private void labelNombreUsuario_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }
