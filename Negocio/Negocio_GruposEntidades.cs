@@ -11,9 +11,14 @@ namespace Negocio
 {
     public class Negocio_GruposEntidades
     {
-        public Datos_GruposEntidades datos_GrupoEntidades = new Datos_GruposEntidades();
+        SqlConnection _con;
+        public Datos_GruposEntidades datos_GrupoEntidades;
 
-
+        public Negocio_GruposEntidades(SqlConnection con)
+        {
+            _con = con;
+            datos_GrupoEntidades = new Datos_GruposEntidades(_con);
+        }
         public DataTable MostrarGrupoEntidades()
         {
             DataTable tabla = new DataTable();

@@ -177,6 +177,9 @@
     <Compile Include="Model\TipoEntidadPolitica.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositorios\Repositorio Entidades.cs" />
+    <Compile Include="Repositorios\Repositorio Eliminable.cs" />
+    <Compile Include="Repositorios\Repositorio Status.cs" />
+    <Compile Include="Repositorios\Repositorio TipoEntidad.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />

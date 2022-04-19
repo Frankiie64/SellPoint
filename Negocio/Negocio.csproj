@@ -160,9 +160,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ModelosDto\EntidadLoginDto.cs" />
+    <Compile Include="ModelosDto\GruposEntidadesDto.cs" />
+    <Compile Include="ModelosDto\NoEliminableDto.cs" />
+    <Compile Include="ModelosDto\StatusDto.cs" />
     <Compile Include="Negocio_GruposEntidades.cs" />
     <Compile Include="Services\Services Login.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\Services defaults.cs" />
+    <Compile Include="Services\Services TipoEntidad.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Dato\Datos.csproj">

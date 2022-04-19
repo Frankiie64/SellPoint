@@ -195,7 +195,6 @@ C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\obj\Debug\Prese
 C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\obj\Debug\Presentacion.Acerca_De.resources
 C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\obj\Debug\Presentacion.Form1.resources
 C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\obj\Debug\Presentacion.Grupos_Entidades.resources
-C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\obj\Debug\Presentacion.Login.frmLogin.resources
 C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\obj\Debug\Presentacion.Login.frmRecuperarContra.resources
 C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\obj\Debug\Presentacion.Menu_Principal.resources
 C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\obj\Debug\Presentacion.Properties.Resources.resources
@@ -204,3 +203,5 @@ C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\obj\Debug\Prese
 C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\obj\Debug\Presentacion.csproj.CopyComplete
 C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\obj\Debug\Presentacion.exe
 C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\obj\Debug\Presentacion.pdb
+C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\obj\Debug\Presentacion.Tipos_Entidades.resources
+C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\obj\Debug\Presentacion.Login.frmMenu.resources

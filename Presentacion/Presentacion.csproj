@@ -163,6 +163,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ComboBoxItem.cs" />
     <Compile Include="Sistema\Acerca_De.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -213,6 +214,9 @@
     <Compile Include="Archivo\Tipos_Entidades.Designer.cs">
       <DependentUpon>Tipos_Entidades.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Archivo\Tipos_Entidades.resx">
+      <DependentUpon>Tipos_Entidades.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Sistema\Acerca_De.resx">
       <DependentUpon>Acerca_De.cs</DependentUpon>
     </EmbeddedResource>

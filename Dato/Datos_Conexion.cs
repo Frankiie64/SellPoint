@@ -22,6 +22,14 @@ namespace Dato
             return _connection;
         }
 
+        public SqlConnection ConnectionBd()
+        {
+            if (_connection.State == ConnectionState.Open)
+            {
+               return _connection;
+            }
+            return null;
+        }
         //Cerrar Conexion de Base de Datos
         public SqlConnection CerrarConexionBD()
         {

@@ -16,19 +16,12 @@ using System.Windows.Forms;
 
 namespace Presentacion.Login
 {
-    public sealed partial class frmLogin : Form
+    public  partial class frmMenu : Form
     {
-
-        public static frmLogin Intance { get; } = new frmLogin();
-        public string connectionString = ConfigurationManager.ConnectionStrings["default"].ConnectionString;
-
         Services_Login service;
-        SqlConnection connection;
-
-        private frmLogin()
+        public frmMenu(SqlConnection connection)
         {
             InitializeComponent();
-            connection = new SqlConnection(connectionString);
             service = new Services_Login(connection);
             
         }
@@ -57,9 +50,8 @@ namespace Presentacion.Login
 
             }
             //MessageBox.Show($"Bienvenido {txtUsuario.Text}");
-            Menu_Principal menu_principal = new Menu_Principal();
-            menu_principal.Show();
-            this.Visible = false; // Cerrar Ventana de login
+            this.Close();
+            Menu_Principal.Intance.Show();
 
         }
 
