@@ -19,6 +19,9 @@ namespace Presentacion
         private SqlConnection _con;
         Services_defaults service;
         Services_TipoEntidad Services_Tipo;
+        ComboBoxItem itemStauts;
+        ComboBoxItem itemGrupos;
+        ComboBoxItem itemNoEliminable;
         private int id = 0;
 
         public Tipos_Entidades(SqlConnection con)
@@ -154,9 +157,9 @@ namespace Presentacion
         }
         private TipoEntidades CreateTipoEntidad()
         {
-            ComboBoxItem itemStauts = cbxStatus.SelectedItem as ComboBoxItem;
-            ComboBoxItem itemGrupos = cbxGrupoEntidad.SelectedItem as ComboBoxItem;
-            ComboBoxItem itemNoEliminable = cbxEliminable.SelectedItem as ComboBoxItem;
+             itemStauts = cbxStatus.SelectedItem as ComboBoxItem;
+             itemGrupos = cbxGrupoEntidad.SelectedItem as ComboBoxItem;
+             itemNoEliminable = cbxEliminable.SelectedItem as ComboBoxItem;
 
             TipoEntidades entidad = new TipoEntidades();
             {
@@ -209,11 +212,55 @@ namespace Presentacion
                 }
             }
         }
-        
+        private bool Validar()
+        {            
+            if (string.IsNullOrEmpty(txtDescripcion.Text))
+            {
+                MessageBox.Show("Por favor rellene el campo de descripcion para continuar.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return false;
+            }
+            else if (string.IsNullOrEmpty(txtComentario.Text))
+            {
+                MessageBox.Show("Por favor rellene el campo de comentario para continuar.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return false;
+            }
+            else if (cbxGrupoEntidad.SelectedIndex < 0)
+            {
+                MessageBox.Show("Por favor llene  el campo de grupo entidad para continuar.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return false;
+            }
+            else if (cbxStatus.SelectedIndex < 0)
+            {
+                MessageBox.Show("Por favor llene  el campo de status para continuar.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return false;
+            }
+            else if (cbxEliminable.SelectedIndex < 0)
+            {
+                MessageBox.Show("Por favor llene  el campo de no eliminable para continuar.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return false;
+            }
+            else
+            {
+                return true;
+            }
+        }
+        private bool SelectRow()
+        {
+            if(id == 0)
+            {
+                MessageBox.Show("Por favor seleccione algun registro para poder continuar con esta opcion.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return false;
+            }
+            return true;
+        }
         private void editTipoEntidad()
         {
-            TipoEntidades tipo = Services_Tipo.GetTipoEntidadesById(id);
-            Rellenar(tipo);
+            if (SelectRow())
+            {
+                TipoEntidades tipo = Services_Tipo.GetTipoEntidadesById(id);
+                Rellenar(tipo);
+            }
+           
         }
         private void btnDeselect_Click(object sender, EventArgs e)
         {
@@ -227,16 +274,22 @@ namespace Presentacion
 
         private void Guardar_Click(object sender, EventArgs e)
         {
-            Save();
-            desmarcar();
-            loadTable();
+            if (Validar())
+            {
+                Save();
+                desmarcar();
+                loadTable();
+            }            
         }
 
         private void btnEliminar_Click(object sender, EventArgs e)
         {
-            deleteTipoEntidad();
-            desmarcar();
-            loadTable();
+            if (SelectRow())
+            {
+                deleteTipoEntidad();
+                desmarcar();
+                loadTable();
+            }            
         }
 
         private void btnEditar_Click(object sender, EventArgs e)
