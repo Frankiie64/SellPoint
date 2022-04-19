@@ -164,6 +164,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ComboBoxItem.cs" />
+    <Compile Include="GlobalRepositoty.cs" />
     <Compile Include="Sistema\Acerca_De.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -175,12 +176,6 @@
     </Compile>
     <Compile Include="Archivo\Entidades.Designer.cs">
       <DependentUpon>Entidades.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Form1.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="Archivo\Grupos_Entidades.cs">
       <SubType>Form</SubType>
@@ -219,9 +214,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Sistema\Acerca_De.resx">
       <DependentUpon>Acerca_De.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Archivo\Grupos_Entidades.resx">
       <DependentUpon>Grupos_Entidades.cs</DependentUpon>

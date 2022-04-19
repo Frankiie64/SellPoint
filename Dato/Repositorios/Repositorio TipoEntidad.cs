@@ -17,6 +17,75 @@ namespace Dato.Repositorios
         {
             _connection = connection;
         }
+        public bool CreateTipoEntidad(TipoEntidades item)
+        {
+            try
+            {
+                _connection.Open();
+
+                SqlCommand sqlCommand = new SqlCommand("SP_InsertTipoEntidad", _connection);
+                sqlCommand.CommandType = CommandType.StoredProcedure;
+
+                sqlCommand.Parameters.AddWithValue("@Descripcion", item.Descripcion);
+                sqlCommand.Parameters.AddWithValue("@IdGrupoEntidad", item.IdGrupoEntidad);
+                sqlCommand.Parameters.AddWithValue("@Comentario", item.Comentario);
+                sqlCommand.Parameters.AddWithValue("@IdStatus", item.IdStatus);
+                sqlCommand.Parameters.AddWithValue("@IdNoEliminable", item.IdNoEliminable);
+
+                return ExecuteDml(sqlCommand);
+
+            }
+            catch
+            {
+                _connection.Close();
+                return false;
+            }
+        }
+        public bool updateTipoEntidad(TipoEntidades item,int id)
+        {
+            try
+            {
+                _connection.Open();
+
+                SqlCommand sqlCommand = new SqlCommand("SP_UpdateTipoEntidad", _connection);
+                sqlCommand.CommandType = CommandType.StoredProcedure;
+
+                sqlCommand.Parameters.AddWithValue("@IdTipoEntidades", id);
+                sqlCommand.Parameters.AddWithValue("@Descripcion", item.Descripcion);
+                sqlCommand.Parameters.AddWithValue("@IdGrupoEntidad", item.IdGrupoEntidad);
+                sqlCommand.Parameters.AddWithValue("@Comentario", item.Comentario);
+                sqlCommand.Parameters.AddWithValue("@IdStatus", item.IdStatus);
+                sqlCommand.Parameters.AddWithValue("@IdNoEliminable", item.IdNoEliminable);
+
+                return ExecuteDml(sqlCommand);
+
+            }
+            catch
+            {
+                _connection.Close();
+                return false;
+            }
+        }
+        public bool deleteTipoEntidad(int id)
+        {
+            try
+            {
+                _connection.Open();
+
+                SqlCommand sqlCommand = new SqlCommand("SP_DeleteTipoEntidades", _connection);
+                sqlCommand.CommandType = CommandType.StoredProcedure;
+
+                sqlCommand.Parameters.AddWithValue("@IdTipoEntidades", id);
+
+                return ExecuteDml(sqlCommand);
+
+            }
+            catch
+            {
+                _connection.Close();
+                return false;
+            }
+        }
         public TipoEntidades findByIdTipoEntidad(int IdTipoEntidades)
         {
             try
@@ -89,6 +158,24 @@ namespace Dato.Repositorios
             {
 
                 return null;
+            }
+
+        }
+        private bool ExecuteDml(SqlCommand command)
+        {
+            try
+            {
+
+                command.ExecuteNonQuery();
+
+                _connection.Close();
+
+                return true;
+            }
+            catch
+            {
+                _connection.Close();
+                return false;
             }
 
         }

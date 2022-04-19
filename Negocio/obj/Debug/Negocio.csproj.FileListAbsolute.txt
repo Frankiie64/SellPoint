@@ -177,8 +177,8 @@ C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Negocio\bin\Debug\ru\Microso
 C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Negocio\bin\Debug\zh-Hans\Microsoft.Data.SqlClient.resources.dll
 C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Negocio\bin\Debug\zh-Hant\Microsoft.Data.SqlClient.resources.dll
 C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Negocio\obj\Debug\Negocio.csproj.AssemblyReference.cache
-C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Negocio\obj\Debug\Negocio.csproj.SuggestedBindingRedirects.cache
 C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
 C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Negocio\obj\Debug\Negocio.csproj.CopyComplete
 C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Negocio\obj\Debug\Negocio.dll
 C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Negocio\obj\Debug\Negocio.pdb
+C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Negocio\obj\Debug\Negocio.csproj.SuggestedBindingRedirects.cache

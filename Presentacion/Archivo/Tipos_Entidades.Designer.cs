@@ -126,16 +126,18 @@
             this.Guardar.TabIndex = 11;
             this.Guardar.Text = "Guardar";
             this.Guardar.UseVisualStyleBackColor = true;
+            this.Guardar.Click += new System.EventHandler(this.Guardar_Click);
             // 
             // btnEditar
             // 
-            this.btnEditar.Location = new System.Drawing.Point(48, 564);
+            this.btnEditar.Location = new System.Drawing.Point(48, 574);
             this.btnEditar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnEditar.Name = "btnEditar";
             this.btnEditar.Size = new System.Drawing.Size(249, 57);
             this.btnEditar.TabIndex = 12;
             this.btnEditar.Text = "Editar";
             this.btnEditar.UseVisualStyleBackColor = true;
+            this.btnEditar.Click += new System.EventHandler(this.btnEditar_Click);
             // 
             // btnEliminar
             // 
@@ -146,6 +148,7 @@
             this.btnEliminar.TabIndex = 13;
             this.btnEliminar.Text = "Eliminar";
             this.btnEliminar.UseVisualStyleBackColor = true;
+            this.btnEliminar.Click += new System.EventHandler(this.btnEliminar_Click);
             // 
             // btnVolver
             // 
@@ -156,6 +159,7 @@
             this.btnVolver.TabIndex = 15;
             this.btnVolver.Text = "Volver al menu principal";
             this.btnVolver.UseVisualStyleBackColor = true;
+            this.btnVolver.Click += new System.EventHandler(this.btnVolver_Click);
             // 
             // cbxStatus
             // 
@@ -242,6 +246,7 @@
             this.Name = "Tipos_Entidades";
             this.Text = "Tipos Entidades";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Tipos_Entidades_FormClosed);
             this.Load += new System.EventHandler(this.Tipos_Entidades_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvRegistrosTENT)).EndInit();
             this.ResumeLayout(false);

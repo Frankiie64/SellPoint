@@ -32,6 +32,18 @@ namespace Negocio.Services
             return _repoGrupo.GetGrupoEntidadesById(id);
         }
 
+        public bool CreateTipoEntidad(TipoEntidades item)
+        {
+            return data.CreateTipoEntidad(item);
+        }
+        public bool UpdateTipoEntidad(TipoEntidades item,int id)
+        {
+            return data.updateTipoEntidad(item,id);
+        }
+        public bool deleteTipoEntidad(int id)
+        {
+            return data.deleteTipoEntidad(id);
+        }
         public DataTable loadTable()
         {
             return data.GetAllTipoEntidad();

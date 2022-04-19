@@ -18,6 +18,7 @@ namespace Presentacion.Login
 {
     public  partial class frmMenu : Form
     {
+        private bool value = true;
         Services_Login service;
         public frmMenu(SqlConnection connection)
         {
@@ -50,6 +51,7 @@ namespace Presentacion.Login
 
             }
             //MessageBox.Show($"Bienvenido {txtUsuario.Text}");
+            value = false;
             this.Close();
             Menu_Principal.Intance.Show();
 
@@ -89,6 +91,15 @@ namespace Presentacion.Login
         private void frmLogin_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void frmMenu_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            if (value)
+            {
+                GlobalRepositoty.Instance.value = false;
+                Menu_Principal.Intance.Close();
+            }
         }
     }
 }

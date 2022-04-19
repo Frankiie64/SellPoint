@@ -91,14 +91,16 @@ this.Hide();
 
         private void Menu_Principal_FormClosing(object sender, FormClosingEventArgs e)
         {
-
-            if (MessageBox.Show("Estas seguro de querer salir del menu principal ?", "ATENCION", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.No)
+            if (GlobalRepositoty.Instance.value)
             {
-                e.Cancel = true;
-            }
-            else
-            {
-                e.Cancel = false;
+                if (MessageBox.Show("Estas seguro de querer salir del menu principal ?", "ATENCION", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.No)
+                {
+                    e.Cancel = true;
+                }
+                else
+                {
+                    e.Cancel = false;
+                }
             }
         }
 

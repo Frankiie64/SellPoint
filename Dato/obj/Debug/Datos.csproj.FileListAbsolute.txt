@@ -175,8 +175,8 @@ C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Dato\bin\Debug\ru\Microsoft.
 C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Dato\bin\Debug\zh-Hans\Microsoft.Data.SqlClient.resources.dll
 C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Dato\bin\Debug\zh-Hant\Microsoft.Data.SqlClient.resources.dll
 C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Dato\obj\Debug\Datos.csproj.AssemblyReference.cache
-C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Dato\obj\Debug\Datos.csproj.SuggestedBindingRedirects.cache
 C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Dato\obj\Debug\Datos.csproj.CoreCompileInputs.cache
 C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Dato\obj\Debug\Datos.csproj.CopyComplete
 C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Dato\obj\Debug\Dato.dll
 C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Dato\obj\Debug\Dato.pdb
+C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Dato\obj\Debug\Datos.csproj.SuggestedBindingRedirects.cache
