@@ -38,12 +38,12 @@ namespace Presentacion
         {
             Acerca_De acerca_De = new Acerca_De();
             acerca_De.Show();
-this.Hide();
+            this.Hide();
         }
 
         private void salirToolStripMenuItem_Click(object sender, EventArgs e)
         {
-this.Hide();
+            this.Close();
         }
 
         private void Menu_Principal_Load(object sender, EventArgs e)
@@ -106,6 +106,15 @@ this.Hide();
 
         private void Menu_Principal_FormClosed(object sender, FormClosedEventArgs e)
         {                        
+        }
+
+        private void loginToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            GlobalRepositoty.Instance.value = false;
+            frmMenu login = new frmMenu(_con);
+            login.Show();
+
         }
     }
 }

@@ -42,5 +42,10 @@ namespace Presentacion
         {
 
         }
+
+        private void Acerca_De_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Menu_Principal.Intance.Show();
+        }
     }
 }
