@@ -163,6 +163,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Archivo\Funciones de las Entidades\Agregar_Entidad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Archivo\Funciones de las Entidades\Agregar_Entidad.Designer.cs">
+      <DependentUpon>Agregar_Entidad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Archivo\Funciones de las Entidades\Agregar_RedesSociales.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Archivo\Funciones de las Entidades\Agregar_RedesSociales.Designer.cs">
+      <DependentUpon>Agregar_RedesSociales.cs</DependentUpon>
+    </Compile>
     <Compile Include="ComboBoxItem.cs" />
     <Compile Include="GlobalRepositoty.cs" />
     <Compile Include="Sistema\Acerca_De.cs">
@@ -209,6 +221,15 @@
     <Compile Include="Archivo\Tipos_Entidades.Designer.cs">
       <DependentUpon>Tipos_Entidades.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Archivo\Entidades.resx">
+      <DependentUpon>Entidades.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Archivo\Funciones de las Entidades\Agregar_Entidad.resx">
+      <DependentUpon>Agregar_Entidad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Archivo\Funciones de las Entidades\Agregar_RedesSociales.resx">
+      <DependentUpon>Agregar_RedesSociales.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Archivo\Tipos_Entidades.resx">
       <DependentUpon>Tipos_Entidades.cs</DependentUpon>
     </EmbeddedResource>

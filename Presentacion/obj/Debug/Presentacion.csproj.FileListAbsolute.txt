@@ -307,3 +307,6 @@ C:\Users\Eleikel\Desktop\Project\Final\Presentacion\obj\Debug\Presentacion.cspro
 C:\Users\Eleikel\Desktop\Project\Final\Presentacion\obj\Debug\Presentacion.csproj.CopyComplete
 C:\Users\Eleikel\Desktop\Project\Final\Presentacion\obj\Debug\Presentacion.exe
 C:\Users\Eleikel\Desktop\Project\Final\Presentacion\obj\Debug\Presentacion.pdb
+C:\Users\Eleikel\Desktop\Project\Final\Presentacion\obj\Debug\Presentacion.Entidades.resources
+C:\Users\Eleikel\Desktop\Project\Final\Presentacion\obj\Debug\Presentacion.Archivo.Funciones_de_las_Entidades.Agregar_Entidad.resources
+C:\Users\Eleikel\Desktop\Project\Final\Presentacion\obj\Debug\Presentacion.Archivo.Funciones_de_las_Entidades.Agregar_RedesSociales.resources
