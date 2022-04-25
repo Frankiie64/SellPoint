@@ -32,7 +32,13 @@ namespace Presentacion
 
         private void Grupos_Entidades_Load(object sender, EventArgs e)
         {
+            load();
+        }
+
+        private void load()
+        {
             MostrarProductos();
+
         }
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
@@ -42,6 +48,7 @@ namespace Presentacion
         private void MostrarProductos()
         {
             dataGridView1.DataSource = grupoEntidades.MostrarGrupoEntidades();
+            dataGridView1.ClearSelection();
         }
 
         private  void BtnGuardar_Click(object sender, EventArgs e)
@@ -51,10 +58,8 @@ namespace Presentacion
             {
                 try
                 {
-                    grupoEntidades.Insertar_GrupoEntidades(txtDescripcion.Text, txtComentario.Text, Convert.ToInt32(txtIdStatus.Text), Convert.ToBoolean(txtNoEliminable.Text), Convert.ToDateTime(dateTimePicker1.Text));
+                    grupoEntidades.Insertar_GrupoEntidades(txtDescripcion.Text, txtComentario.Text, txtIdStatus.Text == "true" ? 1 : 2, txtNoEliminable.Text == "true" ? true : false, Convert.ToDateTime(dateTimePicker1.Text));
                     MessageBox.Show("Se han insertado los datos correctamente");
-                    MostrarProductos();
-                    LimpiarForm();
                 }
                 catch (Exception ex)
                 {
@@ -67,17 +72,21 @@ namespace Presentacion
             {
                 try
                 {
-                    grupoEntidades.Editar_GrupoEntidades(txtDescripcion.Text, txtComentario.Text, Convert.ToInt32(txtIdStatus.Text), Convert.ToBoolean(txtNoEliminable.Text), Convert.ToDateTime(dateTimePicker1.Text), idGrupoEntidades);
-                    MessageBox.Show("Se han editado los datos correctamente");
-                    MostrarProductos();
-                    LimpiarForm();
+                    grupoEntidades.Editar_GrupoEntidades(txtDescripcion.Text, txtComentario.Text, txtIdStatus.Text == "true" ? 1 : 2, txtNoEliminable.Text == "true" ? true : false, Convert.ToDateTime(dateTimePicker1.Text), idGrupoEntidades);
+                    MessageBox.Show("Se han editado los datos correctamente");                    
                     Editar = false;
+
                 }
                 catch (Exception ex)
                 {
                     MessageBox.Show("No se pudo editar los datos por : " + ex);
                 }
             }
+            dataGridView1.DataSource = null;
+
+            LimpiarForm();
+
+            MostrarProductos();
         }
 
         private void btnEditar_Click(object sender, EventArgs e)
@@ -88,7 +97,7 @@ namespace Presentacion
                 txtDescripcion.Text = dataGridView1.CurrentRow.Cells["Descripcion"].Value.ToString();
                 txtComentario.Text = dataGridView1.CurrentRow.Cells["Comentario"].Value.ToString();
                 txtIdStatus.Text = dataGridView1.CurrentRow.Cells["IdStatus"].Value.ToString();
-                txtNoEliminable.Text = dataGridView1.CurrentRow.Cells["IdNoEliminable"].Value.ToString();
+                txtNoEliminable.Text = dataGridView1.CurrentRow.Cells["No Eliminable"].Value.ToString();
                 dateTimePicker1.Text = dataGridView1.CurrentRow.Cells["FechaRegistro"].Value.ToString();
                 idGrupoEntidades = dataGridView1.CurrentRow.Cells["IdGrupoEnitdad"].Value.ToString();
 
@@ -136,7 +145,9 @@ namespace Presentacion
         private void Grupos_Entidades_FormClosed(object sender, FormClosedEventArgs e)
         {
 
-            Menu_Principal.Intance.Show();
+            Menu_Principal menu = new Menu_Principal(connection);
+
+            menu.Show();
         }
 
         private void btnEliminar_MouseEnter(object sender, EventArgs e)

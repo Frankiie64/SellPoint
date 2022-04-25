@@ -26,16 +26,41 @@ namespace Dato
             _con = con;
         }
 
-        public DataTable Mostrar()  //Mostrar la tabla
+       
+        public DataTable Mostrar()//Mostrar la tabla
         {
-            comando.Connection = connection.AbrirConexionBD();
-            comando.CommandText = "MostrarGruposEntidades";
-            comando.CommandType = CommandType.StoredProcedure;
-            leer = comando.ExecuteReader();
-            tabla.Load(leer);
-            connection.CerrarConexionBD();
-            return tabla;
+            SqlCommand command = new SqlCommand("MostrarGruposEntidades", _con);
+            command.CommandType = CommandType.StoredProcedure;
+
+            SqlDataAdapter query = new SqlDataAdapter(command);
+
+            return LoadTable(query);
         }
+
+        private DataTable LoadTable(SqlDataAdapter Query)
+        {
+            try
+            {
+
+                DataTable Data = new DataTable();
+
+                _con.Open();
+
+                Query.Fill(Data);
+
+                _con.Close();
+
+                return Data;
+
+            }
+            catch (Exception ex)
+            {
+
+                return null;
+            }
+
+        }
+
         public GruposEntidades GetGrupoEntidadesById(int Id) //Leer los registros
         {
             try

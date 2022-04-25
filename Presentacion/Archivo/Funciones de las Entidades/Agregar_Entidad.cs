@@ -65,7 +65,9 @@ namespace Presentacion.Archivo.Funciones_de_las_Entidades
         {
             GlobalRepositoty.Instance.entidadad = null;
             GlobalRepositoty.Instance.RedesSociales = null;
-            Menu_Principal.Intance.Show();
+            Menu_Principal menu = new Menu_Principal(_connection);
+
+            menu.Show();
         }
 
         private void Agregar_Entidad_FormClosing(object sender, FormClosingEventArgs e)

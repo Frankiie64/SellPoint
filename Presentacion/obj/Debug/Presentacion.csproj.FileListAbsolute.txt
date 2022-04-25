@@ -630,3 +630,4 @@ C:\Users\USUARIO\OneDrive\Escritorio\PROYECTO FINAL PROG II COMPLE\Presentacion\
 C:\Users\USUARIO\OneDrive\Escritorio\PROYECTO FINAL PROG II COMPLE\Presentacion\obj\Debug\Presentacion.csproj.CopyComplete
 C:\Users\USUARIO\OneDrive\Escritorio\PROYECTO FINAL PROG II COMPLE\Presentacion\obj\Debug\Presentacion.exe
 C:\Users\USUARIO\OneDrive\Escritorio\PROYECTO FINAL PROG II COMPLE\Presentacion\obj\Debug\Presentacion.pdb
+C:\Users\Franklyn\Source\Repos\Final\Presentacion\obj\Debug\Presentacion.Form1.resources

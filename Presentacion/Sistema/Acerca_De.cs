@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -12,9 +13,11 @@ namespace Presentacion
 {
     public partial class Acerca_De : Form
     {
-        public Acerca_De()
+        SqlConnection _con;
+        public Acerca_De(SqlConnection con)
         {
             InitializeComponent();
+            _con = con;
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -45,7 +48,8 @@ namespace Presentacion
 
         private void Acerca_De_FormClosed(object sender, FormClosedEventArgs e)
         {
-            Menu_Principal.Intance.Show();
+            Menu_Principal menu = new Menu_Principal(_con);
+            menu.Show();
         }
 
         private void label5_Click(object sender, EventArgs e)

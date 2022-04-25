@@ -16,29 +16,28 @@ using System.Windows.Forms;
 
 namespace Presentacion
 {
-    public sealed partial class Menu_Principal : Form
+    public  partial class Menu_Principal : Form
     {
-        public static Menu_Principal Intance { get; } = new Menu_Principal();
 
-        public string connectionString = ConfigurationManager.ConnectionStrings["default"].ConnectionString;
-
+        private bool value = true;
         private SqlConnection _con;
         Entidades entidades;
 
         //Dato.Model.Entidades _entidades = new Dato.Model.Entidades();
         EntidadLoginDto entidadLoginDto = new EntidadLoginDto();
 
-        private Menu_Principal()
+        public Menu_Principal(SqlConnection con)
         {
             InitializeComponent();
-            _con = new SqlConnection(connectionString);            
+            _con = con;
         }
 
         private void acercaDeToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Acerca_De acerca_De = new Acerca_De();
+            value = false;
+            Acerca_De acerca_De = new Acerca_De(_con);
             acerca_De.Show();
-            this.Hide();
+           this.Close();
         }
 
         private void salirToolStripMenuItem_Click(object sender, EventArgs e)
@@ -47,12 +46,7 @@ namespace Presentacion
         }
 
         private void Menu_Principal_Load(object sender, EventArgs e)
-        {
-            this.Hide();
-            frmMenu login = new frmMenu(_con);
-
-            login.Show();
-
+        {           
             timer1.Enabled = true;
             toolStripHora.Text = DateTime.Now.ToString ("hh:mm:ss");
             toolStripFecha.Text = DateTime.Now.ToString ("dddd MMMM yyy");
@@ -69,33 +63,36 @@ namespace Presentacion
 
         private void gruposEntidadesToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            value = false;
             Grupos_Entidades grupos_Entidades = new Grupos_Entidades();
-            this.Hide();
+           this.Close();
 
             grupos_Entidades.Show();
         }
 
         private void tiposEntidadesToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            value = false;
             Tipos_Entidades tipos_Entidades = new Tipos_Entidades(_con);
-            this.Hide();
+           this.Close();
             tipos_Entidades.Show();
         }
 
         private void entidadesToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            value = false;
             entidades = new Entidades(_con);
-            this.Hide();
+           this.Close();
             entidades.Show();
         }
 
         private void Menu_Principal_FormClosing(object sender, FormClosingEventArgs e)
         {
-            if (GlobalRepositoty.Instance.value)
+            if (value)
             {
                 if (MessageBox.Show("Estas seguro de querer salir del menu principal ?", "ATENCION", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.No)
                 {
-                    e.Cancel = true;
+                    e.Cancel = true;                    
                 }
                 else
                 {
@@ -105,15 +102,18 @@ namespace Presentacion
         }
 
         private void Menu_Principal_FormClosed(object sender, FormClosedEventArgs e)
-        {                        
+        {
+            if (value)
+            {
+                frmMenu.Instance.Close();
+            }
         }
 
         private void loginToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            GlobalRepositoty.Instance.value = false;
-            frmMenu login = new frmMenu(_con);
-            login.Show();
+            value = false;
+            this.Close();
+            frmMenu.Instance.Show();
 
         }
 
@@ -139,7 +139,7 @@ namespace Presentacion
 
         private void btnCerrar_Click(object sender, EventArgs e)
         {
-            this.Close();
+                       this.Close();
         }
     }
 }

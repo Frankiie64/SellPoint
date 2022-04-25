@@ -140,8 +140,10 @@ namespace Presentacion
         {
             if (value)
             {
-                Menu_Principal.Intance.Show();
-            }
+                Menu_Principal menu = new Menu_Principal(_con);
+
+                menu.Show();
+            }           
         }
 
         private void Entidades_Load(object sender, EventArgs e)

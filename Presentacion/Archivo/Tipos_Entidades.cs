@@ -309,7 +309,9 @@ namespace Presentacion
 
         private void Tipos_Entidades_FormClosed(object sender, FormClosedEventArgs e)
         {
-            Menu_Principal.Intance.Show();            
+            Menu_Principal menu = new Menu_Principal(_con);
+
+            menu.Show();
         }
 
         private void label3_Click(object sender, EventArgs e)

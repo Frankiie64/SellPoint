@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Presentacion.Login;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -10,9 +11,11 @@ using System.Windows.Forms;
 
 namespace Presentacion
 {
-    public partial class Form1 : Form
+    public sealed partial class Form1 : Form
     {
-        public Form1()
+        public static Form1 Instance { get; } = new Form1();
+
+        private Form1()
         {
             InitializeComponent();
         }
@@ -27,9 +30,8 @@ namespace Presentacion
             if (progressBar1.Value == 100)
             {
                 timer1.Enabled = false;
-                Menu_Principal m2 = Menu_Principal.Intance;
-                m2.Show();
                 this.Hide();
+                frmMenu.Instance.ShowDialog();
             }
         }
     }

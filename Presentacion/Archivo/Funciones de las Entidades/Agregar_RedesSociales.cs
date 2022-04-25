@@ -92,7 +92,9 @@ namespace Presentacion.Archivo.Funciones_de_las_Entidades
             if (value)
             {
                 GlobalRepositoty.Instance.RedesSociales = null;
-                Menu_Principal.Intance.Show();
+                Menu_Principal menu = new Menu_Principal(_con);
+
+                menu.Show();
             }            
         }
 

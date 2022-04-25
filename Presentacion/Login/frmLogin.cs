@@ -18,26 +18,27 @@ using System.Runtime.CompilerServices;
 
 namespace Presentacion.Login
 {
-    public  partial class frmMenu : Form
+    public sealed partial class frmMenu : Form
     {
-        private bool value = true;
+        public static frmMenu Instance { get; } = new frmMenu();
+
+        public string connectionString = ConfigurationManager.ConnectionStrings["default"].ConnectionString;
+
+        private SqlConnection _con;
+
         Services_Login service;
-        public frmMenu(SqlConnection connection)
-        {
+        private frmMenu()
+        {            
             InitializeComponent();
-            service = new Services_Login(connection);
+            _con = new SqlConnection(connectionString);
+            service = new Services_Login(_con);
             
         }
 
         #region Eventos
         private void btnEnviar_Click(object sender, EventArgs e)
-        {
-            this.Close();
-            Form1 form1 = new Form1();
-            form1.ShowDialog();
-            
+        {                        
             InicioSesecion();
-
         }
 
         
@@ -49,6 +50,8 @@ namespace Presentacion.Login
         //Metodos Principales
         private void InicioSesecion()
         {
+            Menu_Principal menu = new Menu_Principal(_con);
+
             if(!validacion())
             {
                 return;
@@ -61,9 +64,8 @@ namespace Presentacion.Login
 
             }
             //MessageBox.Show($"Bienvenido {txtUsuario.Text}");
-            value = false;
-            this.Close();
-            Menu_Principal.Intance.Show();
+            this.Hide();
+            menu.Show();
 
         }
 
@@ -105,11 +107,7 @@ namespace Presentacion.Login
 
         private void frmMenu_FormClosed(object sender, FormClosedEventArgs e)
         {
-            if (value)
-            {
-                GlobalRepositoty.Instance.value = false;
-                Menu_Principal.Intance.Close();
-            }
+            Form1.Instance.Close();
         }
 
         private void lblContraseña_Click(object sender, EventArgs e)

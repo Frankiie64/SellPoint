@@ -356,7 +356,6 @@ C:\Users\Franklyn\Source\Repos\Final\Dato\bin\Debug\pt-BR\Microsoft.Data.SqlClie
 C:\Users\Franklyn\Source\Repos\Final\Dato\bin\Debug\ru\Microsoft.Data.SqlClient.resources.dll
 C:\Users\Franklyn\Source\Repos\Final\Dato\bin\Debug\zh-Hans\Microsoft.Data.SqlClient.resources.dll
 C:\Users\Franklyn\Source\Repos\Final\Dato\bin\Debug\zh-Hant\Microsoft.Data.SqlClient.resources.dll
-C:\Users\Franklyn\Source\Repos\Final\Dato\obj\Debug\Datos.csproj.AssemblyReference.cache
 C:\Users\Franklyn\Source\Repos\Final\Dato\obj\Debug\Datos.csproj.SuggestedBindingRedirects.cache
 C:\Users\Franklyn\Source\Repos\Final\Dato\obj\Debug\Datos.csproj.CoreCompileInputs.cache
 C:\Users\Franklyn\Source\Repos\Final\Dato\obj\Debug\Datos.csproj.CopyComplete
@@ -544,3 +543,4 @@ C:\Users\USUARIO\OneDrive\Escritorio\PROYECTO FINAL PROG II COMPLE\Dato\obj\Debu
 C:\Users\USUARIO\OneDrive\Escritorio\PROYECTO FINAL PROG II COMPLE\Dato\obj\Debug\Datos.csproj.CopyComplete
 C:\Users\USUARIO\OneDrive\Escritorio\PROYECTO FINAL PROG II COMPLE\Dato\obj\Debug\Dato.dll
 C:\Users\USUARIO\OneDrive\Escritorio\PROYECTO FINAL PROG II COMPLE\Dato\obj\Debug\Dato.pdb
+C:\Users\Franklyn\Source\Repos\Final\Dato\obj\Debug\Datos.csproj.AssemblyReference.cache
