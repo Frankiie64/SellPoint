@@ -31,7 +31,7 @@ namespace Presentacion
             service = new Services_defaults(_con);
             Services_Tipo = new Services_TipoEntidad(_con);
         }
-       
+        //En este metodo se encarga de gestionar la organizacion de los load.
         private void load()
         {
             loadElimibable();
@@ -39,6 +39,7 @@ namespace Presentacion
             loadGrupoEntidad();
             loadTable();
         }
+        //En este metodo se esta cargando los item del datagreedView
         private void loadTable()
         {
             dgvRegistrosTENT.DataSource = Services_Tipo.loadTable();
@@ -46,6 +47,7 @@ namespace Presentacion
 
             dgvRegistrosTENT.Columns[0].Visible = false;           
         }
+        //En este metodo se esta cargando los item del combobox del NoEliminable
         private void loadElimibable()
         {
 
@@ -62,6 +64,7 @@ namespace Presentacion
             }
             cbxEliminable.SelectedIndex = 0;
         }
+        //En este metodo se esta cargando los item del combobox de Grupo Entidades
         private void loadGrupoEntidad()
         {
             var status = service.getAllGrupoEntidad();
@@ -73,12 +76,12 @@ namespace Presentacion
                     objecto.Text = item.Descripcion;
                     objecto.Value = item.IdGrupoEnitdad;
                 }
-                cbxGrupoEntidad.Items.Add(objecto);
+                cbxGrupoEntidad.Items.Add(objecto); 
             }
             cbxGrupoEntidad.SelectedIndex = 0;
 
         }
-
+        //En este metodo se esta cargando los item del combobox del status
         private void loadStatus()
         {
 
@@ -97,7 +100,7 @@ namespace Presentacion
             cbxStatus.SelectedIndex = 0;
 
         }
-       
+        //En este metodo se encarga de rellenar los textbox y combobox cuando se hace el update.
         private void Rellenar(TipoEntidades item)
         {
             txtDescripcion.Text = item.Descripcion;
@@ -125,7 +128,7 @@ namespace Presentacion
 
         }
 
-       
+       //Desmarca las selecion y reinicia a los valores por defecto.
         private void desmarcar()
         {
             dgvRegistrosTENT.ClearSelection();
@@ -138,6 +141,7 @@ namespace Presentacion
             cbxGrupoEntidad.SelectedItem = default;
             id = 0;
         }
+        // Guardar y determina si es un agregar o un update.
         private void Save()
         {
             TipoEntidades entidades = CreateTipoEntidad();
@@ -151,6 +155,7 @@ namespace Presentacion
                 InsertTipoEntidad(entidades);
             }
         }
+        //En este metodo se encarga de crear el tipo entidad para mandarlo a la base de datos.
         private TipoEntidades CreateTipoEntidad()
         {
              itemStauts = cbxStatus.SelectedItem as ComboBoxItem;
@@ -167,6 +172,7 @@ namespace Presentacion
             }
             return entidad;
         }
+        //Agregar
         private void InsertTipoEntidad(TipoEntidades item)
         {
             bool value = Services_Tipo.CreateTipoEntidad(item);
@@ -180,6 +186,7 @@ namespace Presentacion
                 MessageBox.Show("Ha ocurrido un error con el tipo entidad  cuando se estaba guardadno en la base de datos.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+        //Actualizar
         private void UpdateTipoEntidad(TipoEntidades item)
         {
             bool value = Services_Tipo.UpdateTipoEntidad(item,id);
@@ -193,6 +200,7 @@ namespace Presentacion
                 MessageBox.Show("Ha ocurrido un error con el tipo entidad  cuando se estaba actualizando en la base de datos.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+        //Eliminar
         private void deleteTipoEntidad()
         {
             if (MessageBox.Show("Estas seguro de querer eliminar este registro ?", "ATENCION", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
@@ -208,6 +216,7 @@ namespace Presentacion
                 }
             }
         }
+        //Valida los campos
         private bool Validar()
         {            
             if (string.IsNullOrEmpty(txtDescripcion.Text))
@@ -240,6 +249,7 @@ namespace Presentacion
                 return true;
             }
         }
+        //Validacion para el delete.
         private bool SelectRow()
         {
             if(id == 0)
@@ -249,6 +259,7 @@ namespace Presentacion
             }
             return true;
         }
+        //Validacion para el edit.
         private void editTipoEntidad()
         {
             if (SelectRow())
@@ -258,6 +269,7 @@ namespace Presentacion
             }
            
         }
+        #region Events
         private void btnDeselect_Click(object sender, EventArgs e)
         {
             desmarcar();  
@@ -365,5 +377,6 @@ namespace Presentacion
         {
             this.Close();
         }
+        #endregion
     }
 }

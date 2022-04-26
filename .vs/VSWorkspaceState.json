@@ -1,16 +1,7 @@
 {
   "ExpandedNodes": [
-    "",
-    "\\Dato",
-    "\\Dato\\Repositorios",
-    "\\Negocio",
-    "\\Negocio\\Services",
-    "\\Presentacion",
-    "\\Presentacion\\Archivo",
-    "\\Presentacion\\Archivo\\Funciones de las Entidades",
-    "\\Presentacion\\Login",
-    "\\Presentacion\\Menu Principal"
+    ""
   ],
-  "SelectedNode": "\\Dato\\Repositorios\\Repositorio Entidades.cs",
+  "SelectedNode": "\\Proyecto Final.sln",
   "PreviewInSolutionExplorer": false
 }

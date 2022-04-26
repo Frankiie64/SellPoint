@@ -361,7 +361,6 @@ C:\Users\Franklyn\Source\Repos\Final\Negocio\bin\Debug\ru\Microsoft.Data.SqlClie
 C:\Users\Franklyn\Source\Repos\Final\Negocio\bin\Debug\zh-Hans\Microsoft.Data.SqlClient.resources.dll
 C:\Users\Franklyn\Source\Repos\Final\Negocio\bin\Debug\zh-Hant\Microsoft.Data.SqlClient.resources.dll
 C:\Users\Franklyn\Source\Repos\Final\Negocio\obj\Debug\Negocio.csproj.AssemblyReference.cache
-C:\Users\Franklyn\Source\Repos\Final\Negocio\obj\Debug\Negocio.csproj.SuggestedBindingRedirects.cache
 C:\Users\Franklyn\Source\Repos\Final\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
 C:\Users\Franklyn\Source\Repos\Final\Negocio\obj\Debug\Negocio.csproj.CopyComplete
 C:\Users\Franklyn\Source\Repos\Final\Negocio\obj\Debug\Negocio.dll

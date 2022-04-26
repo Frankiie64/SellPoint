@@ -105,7 +105,7 @@ namespace Presentacion
         {
             if (value)
             {
-                frmMenu.Instance.Close();
+                Form1.Instance.Close();
             }
         }
 

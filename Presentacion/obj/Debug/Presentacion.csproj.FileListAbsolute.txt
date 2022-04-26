@@ -400,7 +400,6 @@ C:\Users\Franklyn\Source\Repos\Final\Presentacion\bin\Debug\ru\Microsoft.Data.Sq
 C:\Users\Franklyn\Source\Repos\Final\Presentacion\bin\Debug\zh-Hans\Microsoft.Data.SqlClient.resources.dll
 C:\Users\Franklyn\Source\Repos\Final\Presentacion\bin\Debug\zh-Hant\Microsoft.Data.SqlClient.resources.dll
 C:\Users\Franklyn\Source\Repos\Final\Presentacion\obj\Debug\Presentacion.csproj.AssemblyReference.cache
-C:\Users\Franklyn\Source\Repos\Final\Presentacion\obj\Debug\Presentacion.csproj.SuggestedBindingRedirects.cache
 C:\Users\Franklyn\Source\Repos\Final\Presentacion\obj\Debug\Presentacion.Entidades.resources
 C:\Users\Franklyn\Source\Repos\Final\Presentacion\obj\Debug\Presentacion.Archivo.Funciones_de_las_Entidades.Agregar_Entidad.resources
 C:\Users\Franklyn\Source\Repos\Final\Presentacion\obj\Debug\Presentacion.Archivo.Funciones_de_las_Entidades.Agregar_RedesSociales.resources
